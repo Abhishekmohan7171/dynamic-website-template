@@ -1,36 +1,30 @@
 <div class="main-container flex justify-center w-full">
+  <div class="bg-[#c9e8dd] w-11/12 h-5/6 mt-3 items-center rounded-3xl pb-7">
+    <div class="heading py-7">
+      <h1 class="text-4xl text-center font-bold">Features you need</h1>
+    </div>
 
-	<div class="bg-[#c9e8dd] w-11/12 h-5/6 mt-6 items-center rounded-3xl pb-7">
-	
+    <div class="content text-center flex justify-center">
+      <p class="text-center px-6 w-1/2">{{ headline }}</p>
+    </div>
 
-		<div class="heading py-7">
-			<h1 class = "text-4xl text-center font-bold">Features you need</h1>
-		</div>
+    <div class="cards flex justify-around pt-5">
+      <div
+        class="card-section w-1/4 h-80 bg-white rounded-2xl"
+        *ngFor="let feature of features"
+      >
+        <div class="images flex justify-center">
+          <img class="image h-20 w-20 pt-2.5" src="{{ feature.Image }}" />
+        </div>
 
+        <div class="header text-center py-5 text-xl font-semibold">
+          {{ feature.Heading }}
+        </div>
 
-		<div class="content text-center flex justify-center">
-			<p class="text-center px-6  w-1/2"> {{ headline }} </p>
-		</div>
-
-
-		
-		<div class="cards flex justify-around pt-5">
-		
-			<div class="card-section w-1/4 h-80  bg-white rounded-2xl" *ngFor = "let feature of features">
-
-				<div class="images flex justify-center">
-					<img class="image  h-20 w-20 pt-2.5" src="{{ feature.Image }}">
-				</div>
-
-				<div class="header text-center py-5 text-xl font-semibold"> {{ feature.Heading }}</div>
-
-				<div class="content text-center pb-2.5 px-2.5">{{ feature.Content }}</div>
-
-			</div>
-
-		</div>
-	
-
-	</div>
-
+        <div class="content text-center pb-2.5 px-2.5">
+          {{ feature.Content }}
+        </div>
+      </div>
+    </div>
+  </div>
 </div>

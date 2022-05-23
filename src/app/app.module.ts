@@ -7,6 +7,7 @@ import { ShellComponent } from './shell/shell.component';
 import { NavComponent } from './nav/nav.component';
 import { HomeComponent } from './home/home.component';
 import { FeaturesComponent } from './features/features.component';
+import { AboutUsComponent } from './about-us/about-us.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { FeaturesComponent } from './features/features.component';
     ShellComponent,
     NavComponent,
     HomeComponent,
-    FeaturesComponent
+    FeaturesComponent,
+    AboutUsComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,67 @@
+{
+    "navBar":
+        {
+            "logo":"./assets/insight.png",
+            "navItemone":"Features",
+            "navItemtwo":"About Us",
+            "navItemthree":"Contact Us"
+        },
+
+    "homePage":
+        {
+            "Image":"./assets/mask.png",
+            "Headline":"Headline title",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec lacus at dolor pharetra molestie. Pellentesque efficitur congue libero, vel maximus ligula lobortis id. Proin facilisis aliquet mauris. Nullam iaculis.",
+            "Buttoncontent":"Get Started"
+        },
+
+    "featurePage":
+        {
+            "Title":"Features you need.",
+            "Description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec lacus at dolor pharetra molestie. Pellentesque efficitur congue libero, vel maximus ligula lobortis id. Proin facilisis aliquet mauris. Nullam iaculis.",
+            "Cards":
+            [
+                {
+                  "Image": "./assets/qr.png",
+                  "Heading": "Feature 1",
+                  "Content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+                },
+                {
+                  "Image":"./assets/qr.png",
+                  "Heading": "Feature 2",
+                  "Content":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+                },
+                {
+                  "Image": "./assets/qr.png",
+                  "Heading": "Feature 3",
+                  "Content":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+                }
+            ]
+        },
+
+    "aboutusPage":
+        {
+            "Title":"About Us",
+            "Content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec lacus at dolor pharetra molestie. Pellentesque efficitur congue libero, vel maximus ligula lobortis id. Proin facilisis aliquet mauris. Nullam iaculis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec lacus at dolor p aretra molestie. Pellentesque efficitur congue libero, vel maximus ligula lobortis id. Proin facilisis aliquet mauris. Nullam iaculis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec lacus at dolor ph      aretra molestie. Pellentesque efficitur congue libero, vel maximus ligula lobortis id. Proin f      acilisis aliquet mauris. Nullam iaculis.Lorem ipsum dolor sit amet, consectetur adipiscing eli      t. Ut nec lacus at dolor p aretra molestie. Pellentesque efficitur congue libero, vel maximus       ligula lobortis id. Proin facilisis aliquet mauris",
+            "Image":"./assets/steps.jpeg"
+        },
+    "footerSection":
+        {
+            
+            "Title":"Contact Us",
+            "Lineone":"Guduvanchery",
+            "Linetwo":"Chennai, 602302",
+            "Email":"xyz@email.com",
+            "Phone":"1234567890",
+            "Titleinfo":"Information",
+            "navItemone":"Features",
+            "navItemtwo":"About Us",
+            "navItemthree":"Contact Us",               
+            "Logo":"./assets/insight-white.png",
+            "Twitter":"./assets/twitter.png",
+            "Insta":"./assets/insta.png",
+            "Fb":"./assets/fb.png",
+            "Copyright":"Made with ❤️ by Web Team."
+        }
+    
+}

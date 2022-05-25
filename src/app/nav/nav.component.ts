@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { JsoncallService } from '../jsoncall.service';
 
 @Component({
   selector: 'app-nav',
@@ -7,7 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavComponent implements OnInit {
 
-  constructor() { }
+  nav:any
+  constructor(private api:JsoncallService) { 
+
+    this.api.getData().subscribe((data) => {
+      console.log(data)
+      this.nav = data;
+    })
+  }
+
+  
 
   ngOnInit(): void {
   }

@@ -1,14 +1,16 @@
 <div class="w-full h-full">
+	
 	<div class="image-container">
-		<img class="right-0 absolute top-0" src="./assets/mask.png">
+		<img class="right-0 absolute top-0" src="{{ home.homePage.Image }}">
 	</div>
 
 	<div class="w-2/4 h-full text-container text-light-grey pt-80 mt-20  ml-20">
-		<h1 class="pt-20 w-4/5 text-7xl pb-2.5 font-bold">{{ heading }}</h1>
-		<p class="pt-21 w-4/5 text-xl">{{ description }}</p>
+		<h1 class="pt-20 w-4/5 text-7xl pb-2.5 font-bold">{{ home.homePage.Headline }}</h1>
+		<p class="pt-21 w-4/5 text-xl">{{ home.homePage.description }}</p>
 
 		<div class="button-container pt-7">
-			<button class="bg-[#c9e8dd] w-32 h-9 rounded-2xl text-lg text-black">Get Started</button>
+			<button class="bg-[#c9e8dd] w-32 h-9 rounded-2xl text-lg text-black">{{ home.homePage.Buttoncontent }}</button>
 		</div>
 	</div>
+
 </div>

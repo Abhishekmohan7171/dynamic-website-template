@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { JsoncallService } from '../jsoncall.service';
 
 @Component({
   selector: 'app-home',
@@ -7,11 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  home:any;
 
-  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec lacus at dolor pharetra molestie. Pellentesque efficitur congue libero, vel maximus ligula lobortis id. Proin facilisis aliquet mauris. Nullam iaculis."
+  constructor(private api: JsoncallService) { 
+    this.api.getData().subscribe((data) => {
+      this.home = data;
+    })
 
-  heading = "Heading Title !";
+  }
+
 
   ngOnInit(): void {
   }

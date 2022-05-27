@@ -6,6 +6,18 @@
 
 @tailwind utilities;
 
+/* .theme-light{
+	--bg-background-primary:white;
+	--bg-background-secondary:'#c9e8dd';
+	--bg-background-ternary:black;
+}
+
+.theme-dark {
+	--bg-background-primary:'#1f1f2e';
+	--bg-background-secondary:'#b3b3cc';
+	--bg-background-ternary:black;
+} */
+
 
 * {
 	font-family: 'Lato', sans-serif;

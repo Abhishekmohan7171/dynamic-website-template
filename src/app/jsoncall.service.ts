@@ -6,7 +6,8 @@ import { HttpClient } from '@angular/common/http';
 })
 export class JsoncallService {
 
-  private url = "./assets/data/data.json";
+  private url = "./assets/data/data-mac.json"; //change JSON file here
+
 
   constructor(private http: HttpClient) { }
 

@@ -1,0 +1,67 @@
+{
+    "navBar":
+        {
+            "logo":"./assets/apple.png",
+            "navItemone":"Features",
+            "navItemtwo":"About Us",
+            "navItemthree":"Contact Us"
+        },
+
+    "homePage":
+        {
+            "Image":"./assets/Mask group.png",
+            "Headline":"Supercharged for pros.",
+            "description":"The most powerful MacBook Pro ever is here. With the blazing-fast M1 Pro or M1 Max chip — the first Apple silicon designed for pros — you get groundbreaking performance and amazing battery life.",
+            "Buttoncontent":"Show Product"
+        },
+
+    "featurePage":
+        {
+            "Title":"Features you need.",
+            "Description":"The new MacBook Pro is available in 35.97-centimetre (14.2-inch) and 41.05-centimetre (16.2-inch) models. Each can be configured with the M1 Pro or M1 Max chip.",
+            "Cards":
+            [
+                {
+                  "Image": "./assets/flash.png",
+                  "Heading": "Scary Fast",
+                  "Content": "M1 Pro takes the exceptional performance of the M1 architecture to a whole new level for pro users.M1 Pro and M1 Max allow pros to do things they never could before. "
+                },
+                {
+                  "Image":"./assets/monitor.png",
+                  "Heading": "Liquid Retina XDR",
+                  "Content":"The best display ever in a notebook features Extreme Dynamic Range and a million-to-one contrast ratio. HDR content comes to life in photos, video and games — with refined specular highlights, incredible detail in shadows, and vibrant, true-to-life colours. "
+                },
+                {
+                  "Image": "./assets/motion.png",
+                  "Heading": "Pro Motion",
+                  "Content":"ProMotion comes to Mac for the first time, making everything from scrolling through a web page to gaming super-fluid and responsive — while also reducing power consumption. With refresh rates of up to 120Hz, the adaptive technology automatically adjusts to match the movement of the content."
+                }
+            ]
+        },
+
+    "aboutusPage":
+        {
+            "Title":"About Us",
+            "Content":"Apple was founded as Apple Computer Company on April 1, 1976, by Steve Jobs, Steve Wozniak and Ronald Wayne to develop and sell Wozniak's Apple I personal computer. It was incorporated by Jobs and Wozniak as Apple Computer, Inc. in 1977 and the company's next computer, the Apple II became a best seller. Apple went public in 1980, to instant financial success. The company developed computers featuring innovative graphical user interfaces, including the original Macintosh, announced in a critically acclaimed advertisement, 1984, directed by Ridley Scott. By 1985, the high cost of its products and power struggles between executives caused problems. Wozniak stepped back from Apple amicably, while Jobs resigned to found NeXT, taking some Apple employees with him.",
+            "Image":"./assets/steps.jpeg"
+        },
+    "footerSection":
+        {
+            
+            "Title":"Contact Us",
+            "Lineone":"Los Altos",
+            "Linetwo":"California,",
+            "Email":"xyz@apple.com",
+            "Phone":"1234567890",
+            "Titleinfo":"Information",
+            "navItemone":"Features",
+            "navItemtwo":"About Us",
+            "navItemthree":"Contact Us",               
+            "Logo":"./assets/insight-white.png",
+            "Twitter":"./assets/twitter.png",
+            "Insta":"./assets/insta.png",
+            "Fb":"./assets/fb.png",
+            "Copyright":"© 2022 - Apple"
+        }
+    
+}

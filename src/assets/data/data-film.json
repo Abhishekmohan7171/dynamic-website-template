@@ -1,0 +1,59 @@
+{
+  "navBar": {
+    "logo": "./assets/filmconv.png",
+    "navItemone": "Product",
+    "navItemtwo": "About Us",
+    "navItemthree": "Contact Us"
+  },
+
+  "homePage": {
+    "Image": "./assets/mask.png",
+    "Headline": "FilmConvert Nitrate",
+    "description": "FilmConvert Nitrate is a film emulation and grain suite that gives you the beautiful, classic look of film for your project in just a few clicks.With dedicated camera packs for every major camera brand.",
+    "Buttoncontent": "Get Demo"
+  },
+
+  "featurePage": {
+    "Title": "What makes us stand out.",
+    "Description": "We work with a wide range of popular cameras to deliver the most precise picture profiles available. We then use those profiles to match to your chosen film stocks to create a stunning and accurate result.",
+    "Cards": [
+      {
+        "Image": "./assets/camera.png",
+        "Heading": "Camera Profiles",
+        "Content": "We work with a wide range of popular cameras to deliver the most precise picture profiles available. We then use those profiles to match to your chosen film stocks to create a stunning and accurate result."
+      },
+      {
+        "Image": "./assets/hd.png",
+        "Heading": "6k Grain Scans",
+        "Content": "Add real grain to your footage, scanned at 6k.Unlike other plugins that simply overlay film grain, FilmConvert realistically models the amount of grain required for each color and exposure level in your image."
+      },
+      {
+        "Image": "./assets/3d.png",
+        "Heading": "Export 3D Luts",
+        "Content": "LUTs are a great way to export your grade for use on devices or any compatible software. Here are some ways this can help improve your workflow.You can export your grade as a .cube LUT from any non-trial plugin version of FilmConvert."
+      }
+    ]
+  },
+
+  "aboutusPage": {
+    "Title": "About Us",
+    "Content": "FilmConvert makes tools to help filmmakers achieve their cinematic visions. Our plugins take the mystery and complexity out of color grading your film, so you can spend more time being creative.Nitrate is our complete film emulation and film grain suite - with Nitrate, you can quickly and easily give your project a cinematic grade in just a few clicks.CineMatch is our dedicated camera matching solution - quickly and easily match footage from over 50 digital cinema, mirrorless and DSLR cameras, and even GoPros, iPhones and drones. Our intuitive camera matching workflow will help you balance and correct your footage,or give your digital camera a color upgrade to use the Hollywood color science of high-end digital cinema cameras.FilmConvert Nitrate is our film emulation and film grain suite of tools. You can now give your projects the timeless, classic look of celluloid film, all within a few clicks.",
+    "Image": "./assets/steps.jpeg"
+  },
+  "footerSection": {
+    "Title": "Contact Us",
+    "Lineone": "175 Victoria Street,",
+    "Linetwo": "Wellington 6011",
+    "Email": "help@filmconvert.com",
+    "Phone": "1234567890",
+    "Titleinfo": "Information",
+    "navItemone": "Product",
+    "navItemtwo": "About Us",
+    "navItemthree": "Contact Us",
+    "Logo": "./assets/filmconv-white.png",
+    "Twitter": "./assets/twitter.png",
+    "Insta": "./assets/insta.png",
+    "Fb": "./assets/fb.png",
+    "Copyright": "© 2022 - FilmConvert"
+  }
+}
